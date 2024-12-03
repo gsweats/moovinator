@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Flask",
-            "type": "python",
+            "name": "Python: MyThang",
+            "type": "debugpy",
             "request": "launch",
-            "module": "flask",
+            "program": "debug1.py",
             "env": {
                 "FLASK_APP": "app.py",
                 "FLASK_ENV": "development",
@@ -21,7 +21,7 @@
                 "--no-debugger",
                 "--no-reload"
             ],
-            "jinja": true
+            // "jinja": true
         }
     ]
 }
